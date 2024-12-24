@@ -12,28 +12,20 @@ class App
     public function __construct()
     {
         new ErrorHandler();
+        new Router();
 
         self::$app = Registry::getInstance();
         self::$db = DB::getInstance();
         
+        // DB
         $this->getDB_params();
         self::$db::connect(self::$app::getProperties());
-    }
+        
+        $uri = $_SERVER["REQUEST_URI"];
 
-    public static function getUser_params()
-    {
-        $instance = require_once CONFIG . "/user.php";
-        foreach($instance as $k => $v){
-            self::$app::setProperty($k, $v);
-        }
-    }
+        Router::matchRoute($uri);
+        Router::dispatch();
 
-    public static function getAdmin_params()
-    {
-        $instance = require_once CONFIG . "/admin.php";
-        foreach($instance as $k => $v){
-            self::$app::setProperty($k, $v);
-        }
     }
 
     public static function getDB_params()
@@ -42,6 +34,7 @@ class App
         foreach($instance as $k => $v){
             self::$app::setProperty($k, $v);
         }
+
     }
 
 }

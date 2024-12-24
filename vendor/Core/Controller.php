@@ -2,7 +2,10 @@
 
 namespace Core;
 
-abstract class Controller
+class Controller
 {
-    
+
+    public function __construct(public $route = []){}
+
+
 }

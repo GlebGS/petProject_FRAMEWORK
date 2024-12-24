@@ -3,7 +3,7 @@
 define("ROOT", dirname(__DIR__));
 define("DEBUG", 1);
 
-define("APP", ROOT . "/Controllers");
+define("APP", "/App/Controllers");
 define("CONFIG", ROOT . "/Config");
 define("WWW", ROOT . "/Public");
 define("TMP", ROOT . "/Tmp");

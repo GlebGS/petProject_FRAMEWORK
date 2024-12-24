@@ -10,6 +10,7 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'C' => 
         array (
             'Core\\' => 5,
+            'Controllers\\' => 12,
         ),
         'A' => 
         array (
@@ -21,6 +22,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'Core\\' => 
         array (
             0 => __DIR__ . '/..' . '/Core',
+        ),
+        'Controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Controllers',
         ),
         'App\\' => 
         array (
