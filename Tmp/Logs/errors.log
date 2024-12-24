@@ -1,0 +1,212 @@
+[2024-12-24 22:15:08] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 14
+=================
+[2024-12-24 22:15:09] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 14
+=================
+[2024-12-24 22:15:50] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:16:14] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:16:15] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:17:31] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:20:33] Текст ошибки: Access to undeclared static property App\Controllers\Admin\MainController::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:20:43] Текст ошибки: Access to undeclared static property App\Controllers\Admin\MainController::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:20:49] Текст ошибки: Access to undeclared static property App\Controllers\Admin\MainController::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:20:51] Текст ошибки: Access to undeclared static property App\Controllers\Admin\MainController::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:21:08] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:22:03] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:22:04] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:23:58] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:23:59] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:24:02] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:24:33] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:25:20] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:25:22] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:26:52] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:26:53] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:27:06] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:31:30] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-24 22:31:31] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-24 22:31:41] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:31:42] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:36:06] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 22:36:22] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 22:36:44] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 22:38:13] Текст ошибки: Undefined array key "/" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 22:38:14] Текст ошибки: Undefined array key "/" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 22:38:38] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 75
+=================
+[2024-12-24 22:38:39] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 75
+=================
+[2024-12-24 22:38:53] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:39:06] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:39:27] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:39:28] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:39:48] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:39:49] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:40:02] Текст ошибки: Cannot use [] for reading | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 73
+=================
+[2024-12-24 22:40:05] Текст ошибки: Undefined array key 1 | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 73
+=================
+[2024-12-24 22:40:09] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:40:13] Текст ошибки: Undefined constant "Core\prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 73
+=================
+[2024-12-24 22:40:17] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:40:21] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:04] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:05] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:15] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:28] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:29] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:41:34] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 22:41:44] Текст ошибки: Undefined array key "/admin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 37
+=================
+[2024-12-24 22:41:52] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:48:10] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 78
+=================
+[2024-12-24 22:50:15] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:50:16] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:50:28] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:51:03] Текст ошибки: Access to undeclared static property Core\Controller::$route | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:52:39] Текст ошибки: Too few arguments to function Core\Controller::getView(), 0 passed in /home/sites/MarlinDev_OOP/vendor/Core/Router.php on line 46 and exactly 1 expected | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 9
+=================
+[2024-12-24 22:52:50] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:53:00] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:53:11] Текст ошибки: Using $this when not in object context | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 11
+=================
+[2024-12-24 22:56:17] Текст ошибки: Access to undeclared static property Core\Controller::$data | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 14
+=================
+[2024-12-24 22:56:30] Текст ошибки: Access to undeclared static property Core\Controller::$data | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 14
+=================
+[2024-12-24 22:56:31] Текст ошибки: Access to undeclared static property Core\Controller::$data | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 14
+=================
+[2024-12-24 23:07:45] Текст ошибки: Фала: /home/sites/MarlinDev_OOP/App/Viewadmin/index.php не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/View.php | Строка: 24
+=================
+[2024-12-24 23:08:06] Текст ошибки: Фала: /home/sites/MarlinDev_OOP/App/Viewadmin/index.php не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/View.php | Строка: 26
+=================
+[2024-12-24 23:08:54] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:09:16] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:09:28] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:09:48] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:09:51] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:10:02] Текст ошибки: Класса App\Controllers\view\ViewController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:10:38] Текст ошибки: Класса App\Controllers\ViewController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:10:44] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-24 23:10:57] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 23:11:40] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 79
+=================
+[2024-12-24 23:11:42] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 79
+=================
+[2024-12-24 23:11:52] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 79
+=================
+[2024-12-24 23:11:53] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 79
+=================
+[2024-12-24 23:11:59] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 81
+=================
+[2024-12-24 23:12:32] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 23:12:33] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 23:12:42] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 76
+=================
+[2024-12-24 23:13:01] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 80
+=================
+[2024-12-24 23:13:02] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 80
+=================
+[2024-12-24 23:13:22] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 77
+=================
+[2024-12-24 23:13:23] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 77
+=================
+[2024-12-24 23:13:32] Текст ошибки: Undefined array key "method" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 79
+=================
+[2024-12-24 23:13:47] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 80
+=================
+[2024-12-24 23:14:00] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:09] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:10] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:11] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:11] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:17] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:18] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:14:27] Текст ошибки: Класса App\Controllers\/\MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:14:31] Текст ошибки: Класса App\Controllers\/\Controller не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:14:32] Текст ошибки: Класса App\Controllers\/\Controller не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:14:46] Текст ошибки: Класса App\Controllers\Controller не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:14:47] Текст ошибки: Класса App\Controllers\Controller не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:14:59] Текст ошибки: Класса App\Controllers\EmptyController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-24 23:15:24] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:15:57] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-24 23:16:01] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================

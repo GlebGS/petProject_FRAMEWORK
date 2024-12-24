@@ -5,6 +5,10 @@ define("DEBUG", 1);
 
 define("APP", "/App/Controllers");
 define("CONFIG", ROOT . "/Config");
+
+define("VIEW", ROOT . "/App/View");
+define("LAYOUT", VIEW . "/layouts");
+
 define("WWW", ROOT . "/Public");
 define("TMP", ROOT . "/Tmp");
 define("LOGS", TMP . "/Logs");

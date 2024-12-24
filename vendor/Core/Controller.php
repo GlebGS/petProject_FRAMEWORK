@@ -2,10 +2,16 @@
 
 namespace Core;
 
-class Controller
+abstract class Controller
 {
+
+    public static array $data = [];
 
     public function __construct(public $route = []){}
 
+    public static function getView($route)
+    {
+        (new View($route))->render(self::$data);
+    }
 
 }

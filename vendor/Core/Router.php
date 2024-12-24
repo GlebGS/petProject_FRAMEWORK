@@ -31,11 +31,10 @@ class Router
 
     public static function dispatch()
     {
-        $uri_Controller = upperCamelCase(self::$route[self::$uri]["controller"]) . "Controller";
+        $uri_Controller = upperCamelCase(self::$route["controller"]) . "Controller";
         $controller = "App\Controllers\\" . self::$controller_prefix . "{$uri_Controller}";
 
-        $action = lowerCamelCase(self::$route[self::$uri]["method"]);
-
+        $action = lowerCamelCase(self::$route["method"]);
 
         if(class_exists($controller))
         {
@@ -43,6 +42,7 @@ class Router
 
             if(method_exists($controllerObject, $action)){
                 $controllerObject->$action();
+                $controllerObject->getView(self::$route);
             }else{
                 throw new Exception("Метод {$controller}::" . $action . " не найден!", 500);
             }
@@ -57,17 +57,27 @@ class Router
         self::$uri = $uri;
     
         // Понять, что если текущий uri имеется в таблице маршрутов, то записать в текущий маршрут
-        foreach(self::$routes as $k => $v)
+        foreach(self::$routes as $path => $route)
         {
-            if($k == $uri){
-                self::$route[$k] = $v;
+            if($path == $uri){
+
+                foreach($route as $k => $v){
+                    $route[$k] = $v;
+                
+                    self::$route = $route;
+                }
             }
 
         }
 
+        if(empty(self::$route["method"])) {self::$route["method"] = 'index';}
+
+        if(empty(self::$route["prefix"])) {self::$route["prefix"] = '';}
+
         // self::$controller_method
-        self::$controller_prefix = self::$route[$uri]["method"];
+        self::$controller_prefix = self::$route["method"];
+
         // self::$controller_method
-        self::$routes[$uri]["prefix"] !== '' ? self::$controller_prefix = '' . self::$routes[$uri]["prefix"] . '\\' : self::$controller_prefix = '';
+        self::$route["prefix"] !== '' ? self::$controller_prefix = '' . self::$route["prefix"] . '\\' : self::$controller_prefix = ''; 
     }
 }
