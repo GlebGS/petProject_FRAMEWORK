@@ -5,11 +5,16 @@ namespace Core;
 class View
 {
     public function __construct(
-        public $route
+        public $route,
+        public $meta = []
     ){}
 
     public function render($data)
     {
+        if(is_array($data)){
+            extract($data);
+        }
+
         $view = lowerCamelCase($this->route["method"]);
         $view_prefix = '/' . $this->route["prefix"];
 
@@ -21,5 +26,10 @@ class View
         }else{
             throw new \Exception("Фала: {$view_file} не существует!", 500);
         }
+    }
+
+    public function getMeta()
+    {
+        return "<title>" . $this->meta["title"] . "</title>" . PHP_EOL;
     }
 }

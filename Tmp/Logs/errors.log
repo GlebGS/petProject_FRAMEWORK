@@ -272,3 +272,53 @@
 =================
 [2024-12-25 20:26:56] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 19
 =================
+[2024-12-25 21:04:15] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:04:43] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:30:08] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:30:09] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:30:09] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:30:58] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:30:58] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:30:59] Текст ошибки: foreach() argument must be of type array|object, true given | Файл: /home/sites/MarlinDev_OOP/vendor/Core/App.php | Строка: 30
+=================
+[2024-12-25 21:31:29] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:31:29] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:31:38] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:32:32] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 29
+=================
+[2024-12-25 21:32:41] Текст ошибки: Undefined array key "logsin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 20
+=================
+[2024-12-25 21:32:41] Текст ошибки: Undefined array key "logsin" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 20
+=================
+[2024-12-25 21:32:54] Текст ошибки: Undefined variable $dsb | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 17
+=================
+[2024-12-25 21:34:28] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:34:32] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 70
+=================
+[2024-12-25 21:36:19] Текст ошибки: Undefined array key "logisn" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 17
+=================
+[2024-12-25 21:36:23] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 21
+=================
+[2024-12-25 21:54:08] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 19
+=================
+[2024-12-25 21:54:08] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 19
+=================
+[2024-12-25 21:54:22] Текст ошибки: Undefined array key "dssn" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 17
+=================
+[2024-12-25 22:02:05] Текст ошибки: Too few arguments to function Core\Controller::getModel(), 0 passed in /home/sites/MarlinDev_OOP/vendor/Core/Router.php on line 40 and exactly 1 expected | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Controller.php | Строка: 13
+=================
+[2024-12-25 22:03:44] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 72
+=================
+[2024-12-25 22:13:48] Текст ошибки: Class "App\Model\R" not found | Файл: /home/sites/MarlinDev_OOP/App/Model/Main.php | Строка: 11
+=================

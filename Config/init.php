@@ -4,6 +4,7 @@ define("ROOT", dirname(__DIR__));
 define("DEBUG", 1);
 
 define("APP", "/App/Controllers");
+define("MODEL", "/App/Model");
 define("CONFIG", ROOT . "/Config");
 
 define("VIEW", ROOT . "/App/View");

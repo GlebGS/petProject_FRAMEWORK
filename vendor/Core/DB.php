@@ -3,22 +3,32 @@
 namespace Core;
 
 use Core\Patterns\TSingleton;
-use PDO;
+use RedBeanPHP\R;
 
 class DB
 {
 
     use TSingleton;
 
-    public static object $connect;
+    public function __construct()
+    {
+        $db = require_once CONFIG . "/env.php";
 
-    public static function connect($data){
-        try{
-            self::$connect = new PDO("{$data['db']}:host={$data['host']};dbname={$data['db_name']}", $data['login'], $data['password']);
-        }catch(\Exception){
+        R::setup($db["dsn"], $db['login'], $db['password']);
+
+        if(!R::testConnection())
+        {
             throw new \Exception("Не удалось подключиться в БАЗЕ ДАННЫХ", 500);
         }
+
+        R::freeze(true);
+
+        if(DEBUG)
+        {
+            R::debug(true, 3);
+        }
     }
+
 
     
 

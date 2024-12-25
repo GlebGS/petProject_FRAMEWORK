@@ -29,14 +29,16 @@ class Router
 
     public static function dispatch()
     {
-
         $action = lowerCamelCase(self::$route["method"]);
 
         if(class_exists(self::$pathController))
         {
+            // вызываем объект класса
             $controllerObject = new self::$pathController(self::$route);
 
             if(method_exists($controllerObject, $action)){
+                // Вызов модели
+                $controllerObject->getModel(self::$route);
                 // Вызов метод класса
                 $controllerObject->$action();
                 // Вызов вида
@@ -44,7 +46,6 @@ class Router
             }else{
                 throw new Exception("Метод " . self::$controller . "::" . $action . " не найден!", 500);
             }
-
         }else{
             throw new Exception("Класса " . self::$controller . " не существует!", 500);
         }
@@ -62,13 +63,13 @@ class Router
                 }
             }
         }
-        // Формирование превикса в пути к контроллеру
-        if(!empty(self::$route["prefix"])) { 
+        // Формирование префикса в пути к контроллеру
+        if(!empty(self::$route["prefix"])) {
             $pathControllerPrefix = '' . self::$route["prefix"] . '\\';
         }else{
             $pathControllerPrefix = '';
         }
-        // controller формат CamelCase 
+        // controller формат CamelCase
         self::$controller = upperCamelCase(self::$route["controller"]) . "Controller";
         // путь к контроллеру
         self::$pathController = "App\Controllers\\" . $pathControllerPrefix . self::$controller;

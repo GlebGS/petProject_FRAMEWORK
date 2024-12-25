@@ -1,6 +1,7 @@
 <?php
 
 return [
+    "dsn" => "pgsql:host=localhost;dbname=marlindev_oop",
     "db" => "pgsql",
     "db_name" => "marlindev_oop",
     "host" => "127.0.0.1",

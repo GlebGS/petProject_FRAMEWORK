@@ -9,7 +9,14 @@ class MainController extends Controller
 
     public function index()
     {
-        //debug($this->route);
+        $this->setData([
+            "id" => 2,
+            "role" => "Admin",
+            "name" => "Admin",
+            "email" => "Admin@mail.ru"
+        ]);
+
+        $this->setMeta("/admin SHOP");
     }
 
 }
