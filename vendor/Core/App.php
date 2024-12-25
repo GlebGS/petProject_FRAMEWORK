@@ -12,7 +12,6 @@ class App
     {
         new ErrorHandler();
         new Router();
-        new DB();
 
         self::$app = Registry::getInstance();      
 

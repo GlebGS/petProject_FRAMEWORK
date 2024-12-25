@@ -22,7 +22,6 @@ class View
 
         if(is_file($view_file)){
             require_once $view_file; 
-
         }else{
             throw new \Exception("Фала: {$view_file} не существует!", 500);
         }

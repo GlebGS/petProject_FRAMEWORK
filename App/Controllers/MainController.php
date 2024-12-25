@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use RedBeanPHP\R;
 use Core\Controller;
 
 class MainController extends Controller
@@ -10,6 +9,8 @@ class MainController extends Controller
     
     public function index()
     {
+        debug(self::$model->getAllUsers());
+
         $this->setData([
             "id" => 1,
             "role" => "User",
