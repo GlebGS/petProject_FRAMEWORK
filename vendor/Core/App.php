@@ -7,7 +7,7 @@ use \Core\Patterns\Registry;
 class App
 {
     public static $app;
-    public static $db;
+    public static $dataBase;
 
     public function __construct()
     {
@@ -15,20 +15,16 @@ class App
         new Router();
 
         self::$app = Registry::getInstance();
-        self::$db = DB::getInstance();
+        self::$dataBase = DB::getInstance();        
         
-        // DB
-        $this->getDB_params();
-        self::$db::connect(self::$app::getProperties());
+        // DataBase
+        $this->getDataBaseParams();
+        self::$dataBase::connect(self::$app::getProperties());
         
-        $uri = $_SERVER["REQUEST_URI"];
-
-        Router::matchRoute($uri);
-        Router::dispatch();
-
+        Router::matchRoute($_SERVER["REQUEST_URI"]);
     }
 
-    public static function getDB_params()
+    public static function getDataBaseParams()
     {
         $instance = require_once CONFIG . "/env.php";
         foreach($instance as $k => $v){

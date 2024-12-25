@@ -210,3 +210,65 @@
 =================
 [2024-12-24 23:16:01] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
 =================
+[2024-12-25 19:44:24] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 34
+=================
+[2024-12-25 19:48:48] Текст ошибки: Такого URI не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 19:48:49] Текст ошибки: Такого URI не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 19:49:08] Текст ошибки: Такого URI не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 19:49:10] Текст ошибки: Undefined array key "prefix" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 90
+=================
+[2024-12-25 19:51:07] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 53
+=================
+[2024-12-25 19:51:23] Текст ошибки: Class "MainController" not found | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 43
+=================
+[2024-12-25 19:51:24] Текст ошибки: Class "MainController" not found | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 43
+=================
+[2024-12-25 20:00:27] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 82
+=================
+[2024-12-25 20:01:41] Текст ошибки: Метод MainController:: не найден! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 47
+=================
+[2024-12-25 20:02:47] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:02:49] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:03:58] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:03:59] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:04:05] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:05:09] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:05:09] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 51
+=================
+[2024-12-25 20:09:42] Текст ошибки: Класса MainController не существует! | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 50
+=================
+[2024-12-25 20:13:46] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 89
+=================
+[2024-12-25 20:14:48] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 83
+=================
+[2024-12-25 20:14:49] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 83
+=================
+[2024-12-25 20:15:09] Текст ошибки:  | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-25 20:15:10] Текст ошибки:  | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 74
+=================
+[2024-12-25 20:15:39] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 83
+=================
+[2024-12-25 20:16:12] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 20:16:13] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 20:16:23] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 20:16:24] Текст ошибки: Undefined array key "controller" | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 85
+=================
+[2024-12-25 20:18:20] Текст ошибки: Undefined property: App\Controllers\Admin\MainController::$self | Файл: /home/sites/MarlinDev_OOP/vendor/Core/Router.php | Строка: 44
+=================
+[2024-12-25 20:26:43] Текст ошибки: Undefined variable $dasta | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 17
+=================
+[2024-12-25 20:26:56] Текст ошибки: Не удалось подключиться в БАЗЕ ДАННЫХ | Файл: /home/sites/MarlinDev_OOP/vendor/Core/DB.php | Строка: 19
+=================

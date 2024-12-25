@@ -8,11 +8,9 @@ class Router
 {
     protected static array $routes = [];
     protected static array $route = [];
-    protected static $uri = '';
 
     protected static $controller;
-    protected static $controller_prefix;
-
+    protected static $pathController;
 
     public static function add($uri, $route = [])
     {
@@ -31,53 +29,50 @@ class Router
 
     public static function dispatch()
     {
-        $uri_Controller = upperCamelCase(self::$route["controller"]) . "Controller";
-        $controller = "App\Controllers\\" . self::$controller_prefix . "{$uri_Controller}";
 
         $action = lowerCamelCase(self::$route["method"]);
 
-        if(class_exists($controller))
+        if(class_exists(self::$pathController))
         {
-            $controllerObject = new $controller(self::$route);
+            $controllerObject = new self::$pathController(self::$route);
 
             if(method_exists($controllerObject, $action)){
+                // Вызов метод класса
                 $controllerObject->$action();
+                // Вызов вида
                 $controllerObject->getView(self::$route);
             }else{
-                throw new Exception("Метод {$controller}::" . $action . " не найден!", 500);
+                throw new Exception("Метод " . self::$controller . "::" . $action . " не найден!", 500);
             }
 
         }else{
-            throw new Exception("Класса {$controller} не существует!", 500);
+            throw new Exception("Класса " . self::$controller . " не существует!", 500);
         }
     }
 
     public static function matchRoute($uri)
     {
-        self::$uri = $uri;
-    
-        // Понять, что если текущий uri имеется в таблице маршрутов, то записать в текущий маршрут
+        // Если текущий маршрут есть в таблице маршрутов, то записать его в self::$route
         foreach(self::$routes as $path => $route)
         {
             if($path == $uri){
-
                 foreach($route as $k => $v){
                     $route[$k] = $v;
-                
                     self::$route = $route;
                 }
             }
-
         }
+        // Формирование превикса в пути к контроллеру
+        if(!empty(self::$route["prefix"])) { 
+            $pathControllerPrefix = '' . self::$route["prefix"] . '\\';
+        }else{
+            $pathControllerPrefix = '';
+        }
+        // controller формат CamelCase 
+        self::$controller = upperCamelCase(self::$route["controller"]) . "Controller";
+        // путь к контроллеру
+        self::$pathController = "App\Controllers\\" . $pathControllerPrefix . self::$controller;
 
-        if(empty(self::$route["method"])) {self::$route["method"] = 'index';}
-
-        if(empty(self::$route["prefix"])) {self::$route["prefix"] = '';}
-
-        // self::$controller_method
-        self::$controller_prefix = self::$route["method"];
-
-        // self::$controller_method
-        self::$route["prefix"] !== '' ? self::$controller_prefix = '' . self::$route["prefix"] . '\\' : self::$controller_prefix = ''; 
+        return self::dispatch();
     }
 }
