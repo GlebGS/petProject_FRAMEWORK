@@ -12,11 +12,11 @@ class MainController extends Controller
         $this->setData([
             "id" => 2,
             "role" => "Admin",
-            "name" => "Admin",
+            "name" => "Tester Admin",
             "email" => "Admin@mail.ru"
         ]);
 
-        $this->setMeta("/admin SHOP");
+        $this->setMeta("/admin TEST");
     }
 
 }

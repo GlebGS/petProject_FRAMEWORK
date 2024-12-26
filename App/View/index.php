@@ -2,6 +2,8 @@
 
 use Core\View;
 
+/** @var $this View */
+
 ?>
 
 <!DOCTYPE html>
@@ -12,11 +14,6 @@ use Core\View;
     <title><?= $this->meta["title"]; ?></title>
 </head>
 <body>
-    <h1>/ index</h1>
-    <h2>/ index</h2>
-    <h3>/ index</h3>
-    <h4>/ index</h4>
 
-    <?= debug($data) ?>
 </body>
 </html>

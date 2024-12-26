@@ -12,13 +12,13 @@ abstract class Controller
 
     public static function getModel($route)
     { 
-        $modelController = upperCamelCase($route['controller']);
+        $modelController = upperCamelCase($route["controller"]);
         
-        if(empty($route['prefix']))
+        if(empty($route["prefix"]))
         {
             $modelPrefix = '';
         }else{
-            $modelPrefix = '' . $route['prefix'] . '\\';
+            $modelPrefix = '' . $route["prefix"] . '\\';
         }
 
         $model = "App\Model\\" . "{$modelPrefix}" . "{$modelController}";
