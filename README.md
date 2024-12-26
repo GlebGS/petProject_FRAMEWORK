@@ -3,7 +3,10 @@
 Фреймворк с минимальным функционалом для работы.
 
 Перед началом работы нужно первым делом подтянуть `autoload` и `подключённую библиотеку`  
-<br>Команда: `composer install`
+<br>Команды: 
+- `composer install`
+- `composer update`
+- `composer dump-autoload`
 
 <hr>
 
