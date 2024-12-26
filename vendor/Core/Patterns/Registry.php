@@ -2,7 +2,6 @@
 
 namespace Core\Patterns;
 
-
 class Registry
 {
     

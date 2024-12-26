@@ -20,16 +20,5 @@ class DB
         {
             throw new \Exception("Не удалось подключиться в БАЗЕ ДАННЫХ", 500);
         }
-
-        R::freeze(true);
-
-        if(DEBUG)
-        {
-            R::debug(true, 3);
-        }
     }
-
-
-    
-
 }

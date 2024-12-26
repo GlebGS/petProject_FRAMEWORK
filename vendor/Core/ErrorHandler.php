@@ -71,5 +71,4 @@ class ErrorHandler
         $this->logError($errstr, $errfile, $errline);
         $this->displayError($errno, $errstr, $errfile, $errline);
     }
-
 }

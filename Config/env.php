@@ -1,11 +1,11 @@
 <?php
 
 return [
-    "dsn" => "pgsql:host=127.0.0.1;dbname=marlindev_oop",
+    "dsn" => "pgsql:host=127.0.0.1;dbname=test_db",
     "db" => "pgsql",
-    "db_name" => "marlindev_oop",
+    "db_name" => "test_db",
     "host" => "127.0.0.1",
     "port" => "5432",
     "login" => "postgres",
-    "password" => "gk8h8v4ot"
+    "password" => ""
 ];
